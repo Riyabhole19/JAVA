@@ -1,3 +1,14 @@
+#	Write a Program to Print Pattern 
+
+#	     ******
+#	    ******
+#	   ******
+#	  ******
+#	 ******
+#	******
+
+
+
 import java.util.Scanner;
 public class Pat2
 {
