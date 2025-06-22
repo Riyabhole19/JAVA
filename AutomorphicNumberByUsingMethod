@@ -1,0 +1,7 @@
+public class AutomorphicNumberByUsingMethod {
+	public static void main(String[] args) {
+	
+		int sqr=(int)Math.pow(3, 2);
+		System.out.println(sqr);
+	}
+}
