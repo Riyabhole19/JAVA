@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Palindrome {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner sc =new Scanner(System.in);
+		System.out.println("Enter the number");
+		int num= sc.nextInt();
+		
+		int rev=0;
+		int org;
+		
+		org=num;
+		while(num!=0)
+		{
+			int digit=num%10;
+			rev=rev*10+digit;
+			num=num/10;
+		}
+		
+		if(rev==org)
+		{
+			System.out.println("\torigninal number is :- "+org+"\n\tReversed Number is :-"+rev);
+			System.out.println("Palindrome");
+		}
+		else
+		{
+			System.out.println("Not Palindrome");
+		}
+		
+	}
+
+}
