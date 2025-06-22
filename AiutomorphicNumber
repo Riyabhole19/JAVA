@@ -1,0 +1,14 @@
+public class AutomorphicNumber {
+	public static void main(String[] args) {
+		int num=59;
+		int sqr=num*num;
+		
+		System.out.println("Square of "+num+" = "+sqr);
+		if(num%10!=sqr%10)
+		{
+			System.out.println("not Automorphic");
+		}
+		else
+			System.out.println("Automorphic");
+	}
+}
